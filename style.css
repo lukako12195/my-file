@@ -1,0 +1,192 @@
+ul li{
+    list-style: none;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none; /*ხაზებს აშორებს ტექტსტ*/
+}
+.g1{
+    background:linear-gradient(to right,yellow,orange,blueviolet);
+    height: 70px;
+    display: flex;
+    justify-content: center; /*ქმნის ბლოკს ტექსტის დასაწყისში*/
+}
+.z1{
+    display: flex;
+    justify-content: center; /*გადმოაქვს ფორმატის ველი ცენტრში*/
+}
+ul{
+    display: flex;
+    gap: 50px;     /*ზემოთ მოცემულ ტექსტს სვამს ჩარჩოში და ალაგებს*/
+}
+.g2{
+    text-align: center; /*მთავარში ტექსტის სათაური გადმოაქვს ცენტრში*/
+}
+.g3{
+    font-weight: bolder;    /* ტექსტის ძალიან გამუქება*/
+    font-size: 30px;       
+    font-family: "ALK LIFE",sans-serif;
+}
+.g4{
+    font-size: 25px;
+    color: rgb(82, 48, 114);
+    animation:fadelnout 3s alternate infinite;
+}
+@keyframes fadelnout{
+    0%{opacity: 0;}
+    25%{opacity: 0.5;}   /*g4 ბლოკი და keyframes ქმნიან ანიმაციურ ეფექტს ტექსტის გაჩენა გაქრობის*/
+    75%{opacity: 0.8;}    
+    100%{opacity: 1;}
+}
+.R1{
+    display: flex;
+    padding-top: 30px; /*ფოტოებს აახლოებს ერთმანეთთან*/
+}
+.R2{
+    width: 508px;
+    height: 350px;  /*ზრდის ფოტოებს და ქმნის ფოტოების ანიმაციას*/
+    animation:fadelnout 3s alternate infinite;
+}
+.R3{
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(216, 226, 96);
+}
+.R4{
+    color: rgb(50, 94, 28);
+    font-size: 25px;   /*ფერს და ზომას უცვლის კლასს R4 ში მოცემულ ტექსტს*/
+}
+.R5{
+    color:rgb(27, 38, 88);
+    font-size: 20px;  /*მოქმედებას ასრულებს R5 ტექსტზე*/
+    animation:fadelnout 3s alternate infinite;
+}
+@keyframes fadelnout{
+    0%{opacity: 0;}
+    25%{opacity: 0.5;}   /*g4 ბლოკი და keyframes ქმნიან ანიმაციურ ეფექტს ტექსტის გაჩენა გაქრობის*/
+    75%{opacity: 0.8;}    
+    100%{opacity: 1;}
+}
+.R6{
+    text-align: center;
+    background-color: olivedrab;
+    height: 100px;   /*მოქმედებას ასრულებს R6 ტექსტზე*/
+    margin-top: -19px;
+}
+.R8{
+    width: 200px;
+    height: 35px;
+    background-color:rgb(147, 157, 167);
+    border: none;
+    font-size: 20px;     /*მოქმედებს R8 კლასზე ღილაკზე*/
+    color: wheat;
+    font-weight: bolder;
+}
+.R9{
+    color: white;
+    text-decoration: none; /*ღილაკს აშორებს ქვემოთა ხაზს და უცვლის ფერს*/
+}
+.f1{
+    text-align: center;
+    background-color:rgb(42, 204, 109);
+    height: 150px;  /*ქმნის ბლოკის ჩარჩოს ფერს და აახლოვებს ზედა ბლოკთან*/
+    margin-top: -15px;
+}
+.f2{
+    font-size: 25px;
+    font-weight: bolder; /*მოქმედებს f2 ტექსტის ფერზე და ზომის შეცვლაზე*/
+    color: rgb(100, 34, 10);
+}
+.f3{
+    font-size: 20px;
+    color:rgb(44, 47, 47); /*f3 ტექსტის ფერს ცვლის და ზომას*/
+}
+.f4{
+    display: flex; /*ქმნის ბლოკის ფერს და აწყობს ტექსტს ცენტრში*/
+    justify-content: center;
+    gap: 50px;
+    background-color: sandybrown;
+}
+.f5{
+    width: 500px;
+    height: 400px; /*ქმნის მრგვალ ჩარჩოს სურათისთვის და ზრდის ბლოკს*/
+    border-radius: 50%;
+}
+.f6{
+    font-size: 50px; /* f6 ტექსტის ზზომას ზრდის*/ 
+}
+.f7{
+    display: flex;
+    gap: 30px;    /*აწყობს მთელ მეშვიდე ბლოკს ერთმანეთის გვერდით*/
+    justify-content: center;
+    background-color:rgb(36, 122, 15);
+}
+.f8{
+    width: 300px;
+    height: 300px; /*f8 ბლოკის ფოტოს უქმნის ჩარჩოს და ზომას*/
+    border-radius: 20%;
+}
+.f9{
+    font-size: 30px; /*ზრდის ტექსტის ზომას და აახლოებს ცენტრისკენ ტექსტსა და ბლოკს*/
+    color:rgb(5, 38, 47);
+    width: 500px;
+}
+.f0{
+    width: 300px;
+    height: 300px; /*მარჯვენა ფოტო ჩამოაქვს მარჯვნი ქვემოთ და უმრგვალებს ჩარჩოს ფოტოს*/
+    border-radius: 20%;
+}
+.m1{
+    text-align: center;
+    line-height: 2px;  /*m1 კლასის ტექსტზე ასრულებს მოქმედებას*/
+    margin-top: 20px;
+}
+.m2{
+    font-size: 30px; /*ზრდის m2 კლასის ტექსტის ზომას*/
+}
+.m3{
+    font-size: 25px;
+    color: sienna; /*m3 კლასის ტექსტზე ასრულებს მოქმედებას*/
+}
+.m4{
+    text-align: center;
+    background-color: cornflowerblue;
+    width: 700px; /*მოქმედებს m4 კლასზე*/
+}
+.m5{
+    font-size: 30px;
+    font-weight: bolder; /*ზრდის m5 ტექსტის ზომას და აშავებს მას*/
+}
+.m6{
+    width: 300px;
+    height: 300px; /*სურათზე ასრულებს მოქმედებებს*/
+}
+.m7{
+    font-size: 20px;
+    font-weight: bolder; /*მოქმედებას ასრულეს m7 კლასის ტექსტზე*/
+}
+.m8{
+    color: rgb(127, 64, 18); /*ფერს უცვლის m8 კლასის ტექსტს*/
+}
+.m9{
+    display: flex;
+    justify-content: center; /*m9 კლასზე ასრულებს მოქმედებას*/
+}
+.t1{
+    text-align: center; /*t1 ტექსტი გადმოაქვს ცენტრში*/
+}
+.b1{
+    font-size: 20px; /*b1 კლასის ტექსტზე მოქმედება*/
+}
+.b3{
+    color: red; /*b3 ტექსტის ნომრის გამუქება*/
+}
+.b4{
+    color: darkcyan; /*b4 გმაილის ტექსტის ფერის შეცვლა*/
+}
+.b5{
+    text-align: center; /*b5 მოთავსებული ინფორმაციის ცენტრში გადატანა*/
+}
+.b6{
+    text-align: center; /*b6 მოთავსებული ინფორმაციის ცენტრში გადატანა*/
+}
